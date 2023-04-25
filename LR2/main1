@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <sys/types.h>
+void forkexample(){
+	if(fork() == 0){
+		printf("child: Kappanen I.V.\n");
+	}
+	else{
+		printf("parent: i993\n");
+	}
+}
+int main(){
+	forkexample();
+	sleep(50);
+	returns 0;
+}
