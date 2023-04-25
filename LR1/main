@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(void)
+{
+	printf("Ivan Kappanen");
+	printf("I993");
+	getchat();
+	return 0;
+}
