@@ -3,10 +3,6 @@
 #include <sync.h>
 #include <sys/neutrino.h>
 barrier_t barrier;
-//int data_ready - 0;
-//int inf = 01
-//pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
-//pthread_cond_t condvar - PTHREAD_COND_INITIALIZER;
 
 void *threadl (void * not_used)
 {
